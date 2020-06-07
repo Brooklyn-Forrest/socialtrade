@@ -1,0 +1,98 @@
+.nav{
+    background: black;
+    color: white;
+    margin: 0;
+}
+
+.inline{
+    display: inline-table;
+}
+
+#titletext{
+    font-size: 30px;
+    padding-right: 3%;
+}
+
+.nav button:hover{
+    cursor: pointer;
+    color: lightskyblue;
+    background: black;
+}
+
+.nav button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    height: fit-content;
+    margin-right: 110px;
+    margin-left: 25px;
+    width: 150px;
+    background: #698cbf;
+    color: white;
+    border: none;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+html{
+    background: url("images/purpleplaid.png");
+}
+
+#main{
+    background: white;
+    margin: 0 auto;
+    width:70%;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#box-div{
+    border: 2px solid black;
+    width: 99.5%;
+    height: 80%;
+    display: block;
+    background: lightsteelblue;
+    margin: 0;
+}
+
+.tab {
+    border-left: none;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-right: 2px solid grey;
+    color: white;
+    background: black;
+    padding: 10px;
+    width: 60px;
+    height: 40px;
+}
+
+.tab:hover{
+    color: yellow;
+    background: darkslategrey;
+    cursor: pointer;
+}
+
+.active{
+    background: #698cbf;
+}
+
+.dtab{
+    display: none;
+}
+
+.activet{
+    display: block;
+    float: right;
+    width: 1220px;
+    height: 700px;
+    border: 2px solid black;
+    vertical-align: top;
+    background:white;
+}
+
+#inner-wrapper{
+    width: fit-content;
+}
